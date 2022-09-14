@@ -1,0 +1,108 @@
+/* 
+   
+    BASIC CSS SIZE UNITS:
+        https://www.w3schools.com/cssref/css_units.asp
+    
+
+    PADDING:
+        Dob't have your shit touch the edges of the screen
+        Don’t have your shit touching the edges of it’s container 
+            padding: top/bottom left/right;
+            padding: top right bottom left;
+
+
+    MARGIN:
+        Don't have shit touching eachother! (unless you really mean to) 
+        
+    TYPEFACE/TYPOGRAPHY:
+        Don't use Times New Roman
+        it's so easy to change the font family 
+        go to googlefonts.com to find a new font
+
+        These help with visual hierarchy:
+            font-family: selecting the font style
+            font-weight: will bold or not
+            font-size:
+            line-height: 
+            color: changes the color of the font
+            letter-spacing: adds more spacing between letters
+
+            (this is extra)
+            font-weight: 
+
+        
+        
+        Some HTML font styling:
+                <small> will make smaller relative to the originoal font
+                <b> will make whatever is wrapped in it bold
+            <p><small> whatever <b>also whatever</b></small></p>
+
+        Some alternative fonts:
+            fonts.google.com 
+                it's best practices to copy and past into the html head NOT copy and paste the css link
+                also add in the different font weights and you define them with
+
+
+    ASSETS:
+        large high fidelity graphics/images, SVGs, videos, and icons
+        let high quality assets do some of the heavy lifting for you
+
+    
+    PAGE PALCEMENT:
+        The most important skill to acquire as a web developer: learning how to plan and design with grids!!!!!
+
+        display: grid;
+        place-items: center;
+
+            
+*/
+
+
+
+body {
+    /* in body you put styles that you are certian will apply to everything */
+    font-family: 'Quicksand', sans-serif;
+    padding: 5% 15%;
+    height: 99vh;
+    display: grid;
+    place-items: center;
+    /* easiest way to center things on the x and y axis together */
+    margin: 0;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 2% 5%;
+    background-color: #fff;
+    max-width: 600px;
+    place-items: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 2em;
+    line-height: 100px;
+}
+
+p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+
+
+.article-design {
+    margin: 5px 0;
+    color: #999;
+}
+
+.article-text {
+    line-height: 1.5em;
+}
+
+
+
+
+
